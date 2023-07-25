@@ -1,0 +1,29 @@
+name: secure_webapp_notes
+description: A secure web application for creating, viewing, and deleting notes.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3  # For making HTTP requests to the back-end
+  # Add other required dependencies here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Add any assets (e.g., images, fonts) used in your project
+    # assets/your_asset.png
+    # assets/fonts/your_font.ttf
+
+  fonts:
+    # Add any custom fonts used in your project
+    # - family: YourFontFamily
+    #   fonts:
+    #     - asset: assets/fonts/your_font.ttf
